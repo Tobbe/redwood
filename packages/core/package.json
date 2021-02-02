@@ -38,7 +38,7 @@
     "babel-plugin-graphql-tag": "^3.0.0",
     "babel-plugin-module-resolver": "^4.0.0",
     "copy-webpack-plugin": "^6.1.0",
-    "core-js": "3.6.5",
+    "core-js": "3.8.3",
     "css-loader": "^4.2.2",
     "dotenv-webpack": "^2.0.0",
     "error-overlay-webpack-plugin": "^0.4.1",
