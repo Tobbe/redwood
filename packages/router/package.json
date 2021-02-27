@@ -9,7 +9,7 @@
   "license": "MIT",
   "dependencies": {
     "@redwoodjs/auth": "^0.26.2",
-    "core-js": "3.6.5",
+    "core-js": "3.9.0",
     "lodash.isequal": "^4.5.0"
   },
   "peerDependencies": {
