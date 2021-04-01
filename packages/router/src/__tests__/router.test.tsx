@@ -205,7 +205,7 @@ test('can display a loading screen whilst waiting for auth', async () => {
           path="/private"
           page={PrivatePage}
           name="private"
-          whileLoading={() => 'Loading...'}
+          whileLoading={() => <>'Loading...'</>}
         />
       </Private>
     </Router>
@@ -499,7 +499,7 @@ test('params should never be an empty object in Set', async (done) => {
 test('params should never be an empty object in Set', async () => {
   const ParamPage = () => {
     const { documentId } = useParams()
-    return 'documentId: ' + documentId
+    return <>{'documentId: ' + documentId}</>
   }
 
   const SetWithUseParams = ({ children }) => {
