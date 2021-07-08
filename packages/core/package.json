@@ -44,7 +44,7 @@
     "cross-env": "7.0.3",
     "x----x----x": "^0 Webpack",
     "webpack": "4.46.0",
-    "webpack-bundle-analyzer": "3.6.1",
+    "webpack-bundle-analyzer": "4.4.2",
     "webpack-cli": "3.3.11",
     "webpack-dev-server": "3.10.3",
     "webpack-manifest-plugin": "3.0.0",
