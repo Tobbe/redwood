@@ -13,7 +13,7 @@
     "@clerk/types": "^1.6.0",
     "@supabase/supabase-js": "1.21.0",
     "@types/netlify-identity-widget": "1.9.2",
-    "@types/react": "17.0.14",
+    "@types/react": "17.0.15",
     "firebase": "8.7.0",
     "firebase-admin": "9.10.0",
     "gotrue-js": "0.9.29",
