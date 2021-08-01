@@ -1741,15 +1741,15 @@
     react-popper "^2.2.3"
     regenerator-runtime "^0.13.7"
 
-"@clerk/clerk-sdk-node@^0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@clerk/clerk-sdk-node/-/clerk-sdk-node-0.5.0.tgz#24fb5068844931ac41e431cbc92cf7cb72dea9b2"
-  integrity sha512-5Au+IR0caQwjgZjnTegAOeZcb5LDePF4abcZxFIJ0zt6z/lGiDfE5pvjbxFGbaR/Enx8iAAClYjr7hSXrXlEJw==
+"@clerk/clerk-sdk-node@^0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@clerk/clerk-sdk-node/-/clerk-sdk-node-0.5.1.tgz#c805ddd2a6b599ec3005dd7e542f30d9883f9481"
+  integrity sha512-dQg5BBeCwoCsailnmVg5gPb4E+o0aqsDvRu+sXkrmOjifugjYUHYnO0CE0jHWinfdPy50USNvjV3Puk5lw2l7w==
   dependencies:
     "@types/cookies" "^0.7.6"
     camelcase-keys "^6.2.2"
     cookies "^0.8.0"
-    got "^11.8.1"
+    got "^11.8.2"
     lodash "^4.17.21"
     snakecase-keys "^3.2.1"
 
@@ -4294,17 +4294,7 @@
   resolved "https://registry.yarnpkg.com/@types/cookie/-/cookie-0.4.1.tgz#bfd02c1f2224567676c1545199f87c3a861d878d"
   integrity sha512-XW/Aa8APYr6jSVVA1y/DEIZX0/GMKLEVekNG727R8cs56ahETkRAy/3DR7+fJyh7oUgGwNQaRfXCun0+KbWY7Q==
 
-"@types/cookies@*":
-  version "0.7.6"
-  resolved "https://registry.yarnpkg.com/@types/cookies/-/cookies-0.7.6.tgz#71212c5391a976d3bae57d4b09fac20fc6bda504"
-  integrity sha512-FK4U5Qyn7/Sc5ih233OuHO0qAkOpEcD/eG6584yEiLKizTFRny86qHLe/rej3HFQrkBuUjF4whFliAdODbVN/w==
-  dependencies:
-    "@types/connect" "*"
-    "@types/express" "*"
-    "@types/keygrip" "*"
-    "@types/node" "*"
-
-"@types/cookies@^0.7.6":
+"@types/cookies@*", "@types/cookies@^0.7.6":
   version "0.7.7"
   resolved "https://registry.yarnpkg.com/@types/cookies/-/cookies-0.7.7.tgz#7a92453d1d16389c05a5301eef566f34946cfd81"
   integrity sha512-h7BcvPUogWbKCzBR2lY4oqaZbO3jXZksexYJVFvkrFeLgbZjQkU4x8pRq6eg2MHXQhY0McQdqmmsxRWlVAHooA==
@@ -10717,7 +10707,7 @@ google-p12-pem@^3.0.3:
   dependencies:
     node-forge "^0.10.0"
 
-got@^11.8.1:
+got@^11.8.2:
   version "11.8.2"
   resolved "https://registry.yarnpkg.com/got/-/got-11.8.2.tgz#7abb3959ea28c31f3576f1576c1effce23f33599"
   integrity sha512-D0QywKgIe30ODs+fm8wMZiAcZjypcCodPNuMz5H9Mny7RJ+IjJ10BdmGW7OM7fHXP+O7r6ZwapQ/YQmMSvB0UQ==
