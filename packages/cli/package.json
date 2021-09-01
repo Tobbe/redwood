@@ -45,7 +45,7 @@
     "rimraf": "3.0.2",
     "secure-random-password": "0.2.3",
     "terminal-link": "2.1.1",
-    "yargs": "16.0.3"
+    "yargs": "17.1.1"
   },
   "devDependencies": {
     "@types/listr": "0.14.4",
