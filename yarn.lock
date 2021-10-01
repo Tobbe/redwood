@@ -1741,15 +1741,18 @@
     react-popper "^2.2.3"
     regenerator-runtime "^0.13.7"
 
-"@clerk/clerk-sdk-node@^0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@clerk/clerk-sdk-node/-/clerk-sdk-node-0.5.0.tgz#24fb5068844931ac41e431cbc92cf7cb72dea9b2"
-  integrity sha512-5Au+IR0caQwjgZjnTegAOeZcb5LDePF4abcZxFIJ0zt6z/lGiDfE5pvjbxFGbaR/Enx8iAAClYjr7hSXrXlEJw==
+"@clerk/clerk-sdk-node@^0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@clerk/clerk-sdk-node/-/clerk-sdk-node-0.5.2.tgz#31da69e43b2a1952774d4e757cf5d0583a577c7b"
+  integrity sha512-XstUStGZs6tpKmp5MdHda0f6Xw1IawEb2N/M/L43xzjZPFBYrJ0GFX9jyQZ9cBk/g4w2rcanP/+8THD7adcX9g==
   dependencies:
     "@types/cookies" "^0.7.6"
+    "@types/jsonwebtoken" "^8.5.4"
     camelcase-keys "^6.2.2"
     cookies "^0.8.0"
-    got "^11.8.1"
+    got "^11.8.2"
+    jsonwebtoken "^8.5.1"
+    jwks-rsa "^2.0.4"
     lodash "^4.17.21"
     snakecase-keys "^3.2.1"
 
@@ -4294,17 +4297,7 @@
   resolved "https://registry.yarnpkg.com/@types/cookie/-/cookie-0.4.1.tgz#bfd02c1f2224567676c1545199f87c3a861d878d"
   integrity sha512-XW/Aa8APYr6jSVVA1y/DEIZX0/GMKLEVekNG727R8cs56ahETkRAy/3DR7+fJyh7oUgGwNQaRfXCun0+KbWY7Q==
 
-"@types/cookies@*":
-  version "0.7.6"
-  resolved "https://registry.yarnpkg.com/@types/cookies/-/cookies-0.7.6.tgz#71212c5391a976d3bae57d4b09fac20fc6bda504"
-  integrity sha512-FK4U5Qyn7/Sc5ih233OuHO0qAkOpEcD/eG6584yEiLKizTFRny86qHLe/rej3HFQrkBuUjF4whFliAdODbVN/w==
-  dependencies:
-    "@types/connect" "*"
-    "@types/express" "*"
-    "@types/keygrip" "*"
-    "@types/node" "*"
-
-"@types/cookies@^0.7.6":
+"@types/cookies@*", "@types/cookies@^0.7.6":
   version "0.7.7"
   resolved "https://registry.yarnpkg.com/@types/cookies/-/cookies-0.7.7.tgz#7a92453d1d16389c05a5301eef566f34946cfd81"
   integrity sha512-h7BcvPUogWbKCzBR2lY4oqaZbO3jXZksexYJVFvkrFeLgbZjQkU4x8pRq6eg2MHXQhY0McQdqmmsxRWlVAHooA==
@@ -4570,10 +4563,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/jsonwebtoken@^8.5.0":
-  version "8.5.1"
-  resolved "https://registry.yarnpkg.com/@types/jsonwebtoken/-/jsonwebtoken-8.5.1.tgz#56958cb2d80f6d74352bd2e501a018e2506a8a84"
-  integrity sha512-rNAPdomlIUX0i0cg2+I+Q1wOUr531zHBQ+cV/28PJ39bSPKjahatZZ2LMuhiguETkCgLVzfruw/ZvNMNkKoSzw==
+"@types/jsonwebtoken@^8.5.0", "@types/jsonwebtoken@^8.5.4":
+  version "8.5.5"
+  resolved "https://registry.yarnpkg.com/@types/jsonwebtoken/-/jsonwebtoken-8.5.5.tgz#da5f2f4baee88f052ef3e4db4c1a0afb46cff22c"
+  integrity sha512-OGqtHQ7N5/Ap/TUwO6IgHDuLiAoTmHhGpNvgkCm/F4N6pKzx/RBSfr2OXZSwC6vkfnsEdb6+7DNZVtiXiwdwFw==
   dependencies:
     "@types/node" "*"
 
@@ -8371,7 +8364,7 @@ debug@4, debug@^4.0.1, debug@^4.1.0, debug@^4.1.1, debug@^4.3.0, debug@^4.3.1:
   dependencies:
     ms "2.1.2"
 
-debug@4.3.2:
+debug@4.3.2, debug@^4.3.2:
   version "4.3.2"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.2.tgz#f0a49c18ac8779e31d4a0c6029dfb76873c7428b"
   integrity sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==
@@ -10717,7 +10710,7 @@ google-p12-pem@^3.0.3:
   dependencies:
     node-forge "^0.10.0"
 
-got@^11.8.1:
+got@^11.8.2:
   version "11.8.2"
   resolved "https://registry.yarnpkg.com/got/-/got-11.8.2.tgz#7abb3959ea28c31f3576f1576c1effce23f33599"
   integrity sha512-D0QywKgIe30ODs+fm8wMZiAcZjypcCodPNuMz5H9Mny7RJ+IjJ10BdmGW7OM7fHXP+O7r6ZwapQ/YQmMSvB0UQ==
@@ -12905,16 +12898,16 @@ jwks-rsa@1.8.1:
     lru-memoizer "^2.1.2"
     ms "^2.1.2"
 
-jwks-rsa@^2.0.2:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/jwks-rsa/-/jwks-rsa-2.0.3.tgz#4059f25e27f1d9cb5681dd12a98e46f8aa39fcbd"
-  integrity sha512-/rkjXRWAp0cS00tunsHResw68P5iTQru8+jHufLNv3JHc4nObFEndfEUSuPugh09N+V9XYxKUqi7QrkmCHSSSg==
+jwks-rsa@^2.0.2, jwks-rsa@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/jwks-rsa/-/jwks-rsa-2.0.4.tgz#59d95e39f300783a8582ef8aa37d5ebbc6a8aa6f"
+  integrity sha512-iJqVCECYZZ+3oPmY1qXv3Fq+3ywDtuNEVBvG41pPlaR0zyGxa12nC0beAOBBUhETJmc05puS50mRQN4NkCGhmg==
   dependencies:
     "@types/express-jwt" "0.0.42"
-    debug "^4.1.0"
+    debug "^4.3.2"
     jose "^2.0.5"
     limiter "^1.1.5"
-    lru-memoizer "^2.1.2"
+    lru-memoizer "^2.1.4"
 
 jws@^3.2.2:
   version "3.2.2"
@@ -13503,7 +13496,7 @@ lru-cache@~4.0.0:
     pseudomap "^1.0.1"
     yallist "^2.0.0"
 
-lru-memoizer@^2.1.2:
+lru-memoizer@^2.1.2, lru-memoizer@^2.1.4:
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/lru-memoizer/-/lru-memoizer-2.1.4.tgz#b864d92b557f00b1eeb322156a0409cb06dafac6"
   integrity sha512-IXAq50s4qwrOBrXJklY+KhgZF+5y98PDaNo0gi/v2KQBFLyWr+JyFvijZXkGKjQj/h9c0OwoE+JZbwUXce76hQ==
