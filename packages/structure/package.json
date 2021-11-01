@@ -34,7 +34,7 @@
   "devDependencies": {
     "@babel/cli": "7.15.4",
     "@types/fs-extra": "9.0.12",
-    "@types/lodash": "4.14.173",
+    "@types/lodash": "4.14.176",
     "@types/lru-cache": "5.1.1",
     "@types/node": "16.9.2",
     "@types/vscode": "1.60.0",
