@@ -28,7 +28,7 @@
     "@graphql-codegen/typescript": "2.2.4",
     "@graphql-codegen/typescript-operations": "2.1.8",
     "@graphql-codegen/typescript-react-apollo": "3.1.6",
-    "@graphql-codegen/typescript-resolvers": "2.3.2",
+    "@graphql-codegen/typescript-resolvers": "2.4.1",
     "@redwoodjs/graphql-server": "0.38.2",
     "babel-plugin-graphql-tag": "3.3.0",
     "babel-plugin-polyfill-corejs3": "0.2.5",
