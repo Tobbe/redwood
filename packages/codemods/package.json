@@ -10,7 +10,7 @@
   "dependencies": {
     "@babel/cli": "7.15.7",
     "@babel/core": "7.15.8",
-    "@babel/plugin-transform-typescript": "7.15.8",
+    "@babel/plugin-transform-typescript": "7.16.1",
     "core-js": "3.18.3",
     "deepmerge": "4.2.2",
     "execa": "5.1.1",

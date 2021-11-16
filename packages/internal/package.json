@@ -18,7 +18,7 @@
   "license": "MIT",
   "dependencies": {
     "@babel/parser": "7.15.8",
-    "@babel/plugin-transform-typescript": "7.15.8",
+    "@babel/plugin-transform-typescript": "7.16.1",
     "@babel/register": "7.15.3",
     "@babel/runtime-corejs3": "7.15.4",
     "@babel/traverse": "7.15.4",
