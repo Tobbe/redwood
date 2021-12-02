@@ -16,7 +16,7 @@
     "deepmerge": "4.2.2",
     "fast-glob": "3.2.7",
     "findup-sync": "5.0.0",
-    "jest": "27.3.1",
+    "jest": "27.4.3",
     "jscodeshift": "0.13.0",
     "node-fetch": "2.6.1",
     "prettier": "2.4.1",
