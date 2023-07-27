@@ -37,6 +37,14 @@
     "./buildFeServer": {
       "types": "./dist/buildFeServer.d.ts",
       "default": "./dist/buildFeServer.js"
+    },
+    "./node-loader": {
+      "types": "./dist/waku-lib/node-loader.d.ts",
+      "default": "./dist/waku-lib/node-loader.js"
+    },
+    "./react-node-loader": {
+      "types": "./dist/react-server-dom-webpack/node-loader.d.ts",
+      "default": "./dist/react-server-dom-webpack/node-loader.js"
     }
   },
   "bin": {
@@ -70,7 +78,7 @@
     "isbot": "3.6.8",
     "react": "18.3.0-canary-035a41c4e-20230704",
     "react-server-dom-webpack": "18.3.0-canary-035a41c4e-20230704",
-    "vite": "4.4.6",
+    "vite": "4.4.7",
     "yargs-parser": "21.1.1"
   },
   "devDependencies": {
