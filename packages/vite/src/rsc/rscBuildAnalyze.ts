@@ -1,3 +1,5 @@
+// import path from 'node:path'
+
 import { build as viteBuild } from 'vite'
 
 import { getPaths } from '@redwoodjs/project-config'
@@ -41,7 +43,7 @@ export async function rscBuildAnalyze() {
     // for returning the entry names. Plus, the entire RSC build is chatty
     // enough as it is. You can enable this temporarily if you need to for
     // debugging, but we're keeping it silent by default.
-    logLevel: 'silent',
+    logLevel: 'info',
     plugins: [
       rscAnalyzePlugin(
         (id) => clientEntryFileSet.add(id),
@@ -78,6 +80,15 @@ export async function rscBuildAnalyze() {
       ssr: rwPaths.web.entries,
       rollupOptions: {
         onwarn: onWarn,
+        // input: {
+        //   'entry.server': rwPaths.web.entryServer as string,
+        //   AboutPage: path.join(
+        //     rwPaths.web.src,
+        //     'pages',
+        //     'AboutPage',
+        //     'AboutPage.tsx',
+        //   ),
+        // },
       },
     },
   })

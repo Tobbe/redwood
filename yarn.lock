@@ -8865,6 +8865,7 @@ __metadata:
     stacktracey: "npm:2.1.8"
     ts-toolbelt: "npm:9.6.0"
     tstyche: "npm:1.1.0"
+    tsx: "npm:4.7.1"
     typescript: "npm:5.4.3"
     vitest: "npm:1.4.0"
   peerDependencies:

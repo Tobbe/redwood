@@ -27,9 +27,11 @@
   ],
   "scripts": {
     "build": "yarn build:js && yarn build:types",
+    "build:esm": "tsx build.mts && yarn build:types",
     "build:js": "babel src -d dist --extensions \".js,.jsx,.ts,.tsx\"",
     "build:pack": "yarn pack -o redwoodjs-web.tgz",
     "build:types": "tsc --build --verbose",
+    "build:types:esm": "tsc --build --verbose tsconfig.esm.json",
     "build:watch": "nodemon --watch src --ext \"js,jsx,ts,tsx\" --ignore dist --exec \"yarn build\"",
     "prepublishOnly": "NODE_ENV=production yarn build",
     "test": "vitest run",
@@ -47,7 +49,8 @@
     "react-helmet-async": "2.0.4",
     "react-hot-toast": "2.4.1",
     "stacktracey": "2.1.8",
-    "ts-toolbelt": "9.6.0"
+    "ts-toolbelt": "9.6.0",
+    "tsx": "4.7.1"
   },
   "devDependencies": {
     "@apollo/experimental-nextjs-app-support": "0.0.0-commit-b8a73fe",
